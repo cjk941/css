@@ -7,8 +7,8 @@
 	--mainColor2: #6600ff22; /* 트게더 메뉴, 게시글 hover */
 	--logoURL: url(https://cdn.discordapp.com/attachments/520197934646558731/630713546082222080/IMG_0009.JPG);
 	--logoWidth: 200px;	 /* 로고 너비 */
-	--before: "호요시와"; /* 접속자 수 앞 문구 */
-	--after: "명의 아이들";  /* 접속자 수 뒤 문구 */
+	--before: "캔따개와"; /* 접속자 수 앞 문구 */
+	--after: "명의 호타쿠";  /* 접속자 수 뒤 문구 */
 }
 
 /* 모든 항목 focus시 아웃라인 제거 */
