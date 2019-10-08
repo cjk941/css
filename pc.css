@@ -5,7 +5,7 @@
 	--mainColor5: #6600ff55; /* 공지, 인기글 hover */
 	--mainColor3: #6600ff33; /* 공지, 인기글 */
 	--mainColor2: #6600ff22; /* 트게더 메뉴, 게시글 hover */
-	--logoURL: url(https://cdn.discordapp.com/attachments/520197934646558731/630713546082222080/IMG_0009.JPG);
+	--logoURL: url(https://cdn.discordapp.com/attachments/520197934646558731/631057644156878851/image.png);
 	--logoWidth: 200px;	 /* 로고 너비 */
 	--before: "캔따개와"; /* 접속자 수 앞 문구 */
 	--after: "명의 호타쿠";  /* 접속자 수 뒤 문구 */
@@ -463,4 +463,46 @@ header #header-bar>.row {
 
 .btn.square {
 	margin-right: -2px;
+}
+
+/* 마우스포인터 기본(블루) */
+html,
+body,
+.fr-popup.emoticons,
+.fr-top,
+select.form-control,
+input[type=checkbox],
+input[type=radio],
+.opt
+ {
+ cursor: url(https://cdn.discordapp.com/attachments/520197934646558731/631034475643535360/SPOILER__.png) 0 0, auto !important;
+}
+
+
+/* 마우스포인터 선택(빨강) */
+#right-search-form>#right-search-btn,
+#board-info #board-info-bottom #addFavoriteBtn,
+#article-list #article-option-area>#article-option-area-toggle-btn,
+#article-list>.article-list-row>.item>.list-title>.list-writer>span,
+.reply > .reply-header > .reply-writer.logged,
+.reply-menu,
+.btn,
+.fr-toolbar .fr-command.fr-btn,
+.fr-popup .fr-command.fr-btn,
+.fr-view img,
+.pull-left,
+a {
+ cursor: url(https://cdn.discordapp.com/attachments/520197934646558731/631034473722675201/SPOILER__.png) 0 0, auto !important;
+}
+
+
+
+/* 마우스포인터 텍스트(노랑) */
+span#viewers,
+#article-list #boardSearchForm .form-control,
+.fr-view,
+.fr-box.fr-basic.fr-element,
+input[type='text']
+ {
+ cursor: url(https://cdn.discordapp.com/attachments/520197934646558731/631034468165222411/SPOILER__.png) 0 0, auto !important;
 }
