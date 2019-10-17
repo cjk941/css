@@ -1,10 +1,10 @@
 /* 사용자 설정 부분 */
 :root {
-	   --bgColor:  #79a2bd;   /* 배경 색 */
-	 --mainColor:  #9966ff;   /* 메인 컬러 */
-	--mainColor5: #6600ff55; /* 공지, 인기글 hover */
-	--mainColor3: #6600ff33; /* 공지, 인기글 */
-	--mainColor2: #6600ff22; /* 트게더 메뉴, 게시글 hover */
+	   --bgColor:  #C7DDEB;   /* 배경 색 */
+	 --mainColor:  #79a2bd;   /* 메인 컬러 */
+	--mainColor5: #cc77dd55; /* 공지, 인기글 hover */
+	--mainColor3: #cc77dd33; /* 공지, 인기글 */
+	--mainColor2: #cc77dd22; /* 트게더 메뉴, 게시글 hover */
 	--logoURL: url(https://cdn.discordapp.com/attachments/520197934646558731/631057644156878851/image.png);
 	--logoWidth: 200px;	 /* 로고 너비 */
 	--before: "캔따개와"; /* 접속자 수 앞 문구 */
