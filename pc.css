@@ -28,6 +28,11 @@ a:hover,
 a:focus {
 	color: var(--mainColor);
 }
+/*************** font ***************/
+@font-face { font-family: 'BMHANNAAir'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.0/BMHANNAAir.woff') format('woff'); font-weight: normal; font-style: normal; }
+* {
+
+font-family : 'BMHANNAAir'; }
 /*************** animation ***************/
 /* 하트 펌핑 애니메이션 */
 
@@ -52,6 +57,45 @@ small.favo i.fa.fa-heart {
     100% {transform: scale(1);}
 
 }
+
+
+html {
+
+   background: linear-gradient(to bottom, #436B83, #FFFFFF);
+
+  height: auto !important;
+
+}
+
+
+
+body {
+
+background: transparent;
+
+animation: snow 20s linear infinite;
+
+
+
+/*백그라운드 이미지 원근감느낌 이미지*/
+
+background-image:url('https://cdn.discordapp.com/attachments/460145928850898945/515694458633846831/snow.png'), 
+	url("https://cdn.discordapp.com/attachments/460145928850898945/515694460668084274/snow3.png"),
+	url("https://cdn.discordapp.com/attachments/460145928850898945/515694462278828073/snow2.png");
+
+}
+
+
+/*뒷배경 움직이는 애니메이션*/
+
+@keyframes snow {
+
+0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+
+100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
+
+}
+
 /*************** header ***************/
 
 header {
@@ -527,42 +571,4 @@ span#viewers,
 input[type='text']
  {
  cursor: url(https://cdn.discordapp.com/attachments/520197934646558731/631034468165222411/SPOILER__.png) 0 0, auto !important;
-}
-
-html {
-
-   background: linear-gradient(to bottom, #436B83, #FFFFFF);
-
-  height: auto !important;
-
-}
-
-
-
-body {
-
-background: transparent;
-
-animation: snow 20s linear infinite;
-
-
-
-/*백그라운드 이미지 원근감느낌 이미지*/
-
-background-image:url('https://cdn.discordapp.com/attachments/460145928850898945/515694458633846831/snow.png'), url("https://cdn.discordapp.com/attachments/460145928850898945/515694460668084274/snow3.png"), url("https://cdn.discordapp.com/attachments/460145928850898945/515694462278828073/snow2.png");
-
-}
-
-
-
-
-
-/*뒷배경 움직이는 애니메이션*/
-
-@keyframes snow {
-
-0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
-
-100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
-
 }
